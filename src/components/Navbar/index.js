@@ -8,14 +8,14 @@ export default function Navbar() {
         <nav className="navbar">
 
             <div className="navbarLeft">
-                <h2>Divercity Jobs</h2>
+                <h2><Link to="/">Divercity Jobs</Link></h2>
                 <p>Find your's today</p>
             </div>
 
             <ul className="navbarRight">
-                <li><Link className="link" to="/">Jobs</Link></li>
-                <li><Link className="link" to="/login">Login</Link></li>
-                <li><Link className="link" to="/register">Register</Link></li>
+                <li><Link to="/">Jobs</Link></li>
+                <li><Link to="/login">Login</Link></li>
+                <li><Link to="/register">Register</Link></li>
             </ul>
 
         </nav>

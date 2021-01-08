@@ -1,0 +1,41 @@
+.searchContainer {
+    background-color: #e2f3f5;
+}
+
+.searchForm {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: #e2f3f5;
+}
+
+.titleInput, .locationInput, .searchBtn, .jobType, .appliedTo {
+    margin: 10px 5px;
+}
+
+.fas {
+    margin-right: 5px;
+    color: #0e153a;
+}
+
+.searchBtn {
+    border: 1px solid #0e153a;
+    color: #0e153a;
+    background-color: #e2f3f5;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+span {
+    color: #0e153a;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+@media only screen and (max-width: 600px) {
+    .titleInput, .locationInput, .searchBtn {
+        margin: 5px 5px;
+    }
+}

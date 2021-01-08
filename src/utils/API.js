@@ -37,8 +37,8 @@ export default {
         .then(result => console.log(result))
         .catch(error => console.log('error', error));
     }, 
-    applyToJob: function(motivation, cover_letter) {
-        return fetch("https://divercity-test.herokuapp.com/jobs/2/apply", {
+    applyToJob: function(id, motivation, cover_letter) {
+        return fetch(`https://divercity-test.herokuapp.com/jobs/${id}/apply`, {
             method: 'POST',
             headers: {"Content-Type": "application/x-www-form-urlencoded", "Authorization": "a token"},
             body: {

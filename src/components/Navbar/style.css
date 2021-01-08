@@ -3,7 +3,6 @@
     flex-direction: row;
     align-items: center;
     justify-content: space-around;
-    /* background-color: #22d1ee; */
     background: linear-gradient(0deg, #e2f3f5 0%, #22d1ee 85%);
     padding: 10px 0px;
 }
@@ -17,6 +16,7 @@
 .navbarLeft h2 {
     padding: 0px;
     margin: 5px;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 400;
     color: #0e153a;
 }
@@ -31,7 +31,14 @@
     display: inline;
     padding: 10px;
 }
-.navbarRight li a {
+
+.navbarRight li a, .navbarLeft h2 a {
     text-decoration: none;
     color: #0e153a;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbarLeft p {
+        display: none;
+    }
 }
