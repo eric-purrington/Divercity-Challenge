@@ -1,0 +1,37 @@
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    /* background-color: #22d1ee; */
+    background: linear-gradient(0deg, #e2f3f5 0%, #22d1ee 85%);
+    padding: 10px 0px;
+}
+
+.navbarLeft p {
+    font-style: italic;
+    margin: 5px;
+    color: #0e153a;
+}
+
+.navbarLeft h2 {
+    padding: 0px;
+    margin: 5px;
+    font-weight: 400;
+    color: #0e153a;
+}
+    
+.navbarRight {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+  
+.navbarRight li {
+    display: inline;
+    padding: 10px;
+}
+.navbarRight li a {
+    text-decoration: none;
+    color: #0e153a;
+}
