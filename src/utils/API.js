@@ -5,7 +5,6 @@ export default {
             redirect: 'follow'
         })
         .then(response => response.text())
-        .then(result => console.log(result))
         .catch(error => console.log('error', error));
     },
     loginUser: function(username, password) {
@@ -19,7 +18,6 @@ export default {
             redirect: 'follow'
           })
         .then(response => response.text())
-        .then(result => console.log(result))
         .catch(error => console.log('error', error));
     }, 
     registerUser: function(name, username, password) {
@@ -34,7 +32,6 @@ export default {
             redirect: 'follow'
           })
         .then(response => response.text())
-        .then(result => console.log(result))
         .catch(error => console.log('error', error));
     }, 
     applyToJob: function(id, motivation, cover_letter) {
@@ -48,7 +45,6 @@ export default {
             redirect: 'follow'
           })
         .then(response => response.text())
-        .then(result => console.log(result))
         .catch(error => console.log('error', error));
     }
 }
